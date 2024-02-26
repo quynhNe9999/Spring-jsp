@@ -1,0 +1,11 @@
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: create
+        show-sql: true
+    messages:
+        basename: validation
+    mvc:
+        view:
+            prefix: /WEB-INF/jsp/
+            suffix: .jsp
